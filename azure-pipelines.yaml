@@ -75,7 +75,7 @@ jobs:
           publishJUnitResults: false
           testResultsFiles: '**/TEST-*.xml'
           goals: 'deploy'
-          options: '-DskipTests=true -Dmaven.javadoc.skip=true --batch-mode'
+          options: '-DskipTests=true -Dmaven.javadoc.skip=true -P ssb-bip --batch-mode'
 
       # Build Docker image
       - task: Docker@2
