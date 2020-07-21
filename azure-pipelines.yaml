@@ -21,9 +21,9 @@ variables:
   - name: fullSha
     value: '$(Build.SourceVersion)'
   - name: imageName
-    value: 'eu.gcr.io/prod-bip/ssb/dapla/hamletfeed'
+    value: 'eu.gcr.io/prod-bip/ssb/hamletfeed/hamletfeed'
   - name: repoName
-    value: 'prod-bip/ssb/dapla/hamletfeed'
+    value: 'prod-bip/ssb/hamletfeed/hamletfeed'
   - name:  MAVEN_CACHE_FOLDER
     value: $(Pipeline.Workspace)/.m2/repository
   - name: MAVEN_OPTS
