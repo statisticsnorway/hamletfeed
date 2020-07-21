@@ -128,7 +128,7 @@ jobs:
         inputs:
           projectId: 'prod-bip'
           imageHost: 'https://eu.gcr.io/'
-          image: 'prod-bip/ssb/dapla/hamletfeed'
+          image: 'prod-bip/ssb/hamletfeed/hamletfeed'
           imageTag: '$(Build.SourceBranchName)-imagescan-$(fullSha)'
 
   - template: docker/docker-tag-for-production.yml@templates
